@@ -6,7 +6,7 @@
 
 .firstsec {
     height: 640px;
-    margin-top: 70px;
+    padding: 70px 0 119px ;
     position: relative;
 }
 
@@ -42,25 +42,25 @@
 #n1 {
     position: absolute;
     left: 23%;
-    top: 40%
+    top: 33%
 }
 
 #and {
     position: absolute;
     left: 48%;
-    top: 52%;
+    top: 45%;
 }
 
 #n2 {
     position: absolute;
     left: 57%;
-    top: 62%;
+    top: 55%;
 }
 
 .weddingdate {
     position: absolute;
     left: 40%;
-    top: 83%;
+    top: 73%;
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 400;
