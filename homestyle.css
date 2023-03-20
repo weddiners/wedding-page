@@ -30,7 +30,7 @@
 
 #homelink {
     border-bottom: 2px solid #000;
-    padding-bottom: 3px;
+    padding-bottom: 2px;
 }
 
 .nameh {
@@ -64,4 +64,29 @@
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 400;
+}
+
+.secondsec {
+    display: flex;
+    justify-content: center;
+    padding: 72px 139px 160px 139px;
+}
+
+.storydiv {
+    width: 100%;
+}
+
+.storyhead {
+    font-family: 'Great Vibes', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.story {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 32px;
 }
