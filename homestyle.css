@@ -89,4 +89,18 @@
     font-weight: 400;
     text-align: center;
     padding-top: 32px;
+    line-height: 36px;
+}
+
+.thirdsec {
+    /*background-color: #F7CAC9;*/
+    background-color: rgba(247, 202, 201, 0.1);
+    padding: 72px 64px 188px 64px;
+}
+
+.beginning {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 64px;
+    font-weight: 400;
 }
