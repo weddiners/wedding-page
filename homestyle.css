@@ -170,3 +170,85 @@
     top: 4.85%;
     bottom: 93.78%;
 }
+
+#kiss1 {
+    position: absolute;
+    left: 37.42%;
+    right: 36%;
+    top: 5.35%;
+    bottom: 79.92%;
+    z-index: 1;
+}
+
+#kiss2 {
+    position: absolute;
+    left: 36.04%;
+    right: 37.38%;
+    top: 6.02%;
+    bottom: 79.24%;
+    z-index: 0;
+}
+
+.promisediv {
+    position: absolute;
+    bottom: 87%;
+    display: flex;
+    align-items: center;
+    width: 31%;
+    left: 3%
+}
+
+.promise {
+    font-family: 'Great Vibes', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.quote {
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    font-weight: 400;
+    padding: 0 10px 0 0;
+
+}
+
+.teediv {
+    position: absolute;
+    bottom: 87%;
+    width: 32%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tee {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 63px;
+}
+
+.promisediv2 {
+    position: absolute;
+    bottom: 87%;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    left: 66%
+}
+
+.vicdiv {
+    position: absolute;
+    bottom: 86.6%;
+    width: 32%;
+    display: flex;
+    justify-content: flex-end;
+    left: 65%;
+}
+
+.vic {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 63px;
+}
