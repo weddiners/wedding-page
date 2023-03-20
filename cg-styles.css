@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* font-family: 'Great Vibes', cursive; */
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    max-width: 1440px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    padding: 2.5em 11em;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 19px;
+    width: fit-content;
+}
+
+nav a.active::after{
+    content: " ";
+    display: block;
+    margin: 0;
+    width: 50%;
+    padding-top: 3px;
+    border-bottom: 2px solid #000000;
+}
+
+main .c-header{
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    margin: 3em 3em 2em 9em;
+}
+
+main .c-header .head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 90%;
+         
+}
+
+main .c-header .head h1{
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 5.9em;
+    line-height: 144px;
+    text-transform: capitalize;
+}
+
+main .hold p{
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 48px;
+    text-align: center;
+}
+main .c-header .star{
+    flex-basis: 2%;
+    width: 100%;
+}
+
+
+main .c-body{
+    margin-top: 4em;
+    padding: 0 6em;
+    display: flex;
+    gap: 2.5em;
+}
+
+main .c-body .image{
+    flex-basis: 10%;
+}
+
+main .c-body .c-form{
+    flex-basis: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 29px;
+    
+}
+
+
+main .c-body .c-form form input{
+    width: 100%;
+    padding: 1em;
+    background: #F3F4F6;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-top: .7em;
+    margin-bottom: 2em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+main .c-body .c-form form textarea{
+    display: block;
+    height: 40%;
+    width: 100%;
+    padding: 2em;
+    margin-top: .7em;
+    margin-bottom: 2em;
+    resize: none;
+    background-color: #F3F4F6;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+main .c-body .c-form form button{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #F7CAC9;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    transition: ease-in-out 20ms;
+}
+
+main .c-body .c-form form button:hover{
+    background-color: #FFFFFF;
+    color: #F7CAC9;
+    border: 2px solid #F7CAC9;
+}
+
+main .c-foot{
+    margin-top: 5em;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+main .c-foot p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 48px;
+    width: 70%;
+}
+
+main .c-foot .foot-img{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em 5em auto;
+}
+
+main .c-foot .foot-img img{
+    width: 80%;
+}
+
+
+footer{
+    margin-top: 10rem;
+    background-color:#F2E6E6;
+    padding: 15% 0 1em 0;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    color: #4D5053;
+}
+
+
+@media(max-width:1024px){
+    nav{
+        padding: 2em 9em;  
+    }
+
+    main .c-header{
+    margin: 3em 3em 2em 7em;
+     }
+
+     main .c-header .head h1{
+    font-size: 5.2em;
+    }
+
+    main .hold p{
+    font-size: 1.7em;
+     }
+
+     main .c-body .image img{
+        width: 410px;
+    }
+     main .c-body .c-form form{
+        margin-bottom: 2em;
+   }
+   main .c-foot .foot-img{
+    width: 65%;
+}
+    
+}
+
+@media(max-width:768px){
+    nav{
+        padding: 2.5em ;  
+    }
+
+    main .c-header{
+    margin: 3em 3em 2em 5em;
+     }
+
+     main .c-header .head h1{
+    font-size: 4.8em;
+    }
+
+     main .c-body{
+        flex-wrap: wrap-reverse;
+     }
+
+     main .c-body .image{
+        flex-basis: 100%;
+        width: 100%;
+        margin-top: 3em;
+     }
+
+      main .c-body .image img{
+        width: 100%;
+      }
+
+     main .c-body .c-form{
+    flex-basis: 100%;
+    }
+
+     main .c-body .c-form{
+        font-size: 1.3em;
+     }
+    }
+
+    @media(max-width:425px){
+        nav{
+            display: none;
+        }
+     main .c-header{
+        margin: 3em 2em 2em;
+     }
+
+       main .c-header .head h1{
+    font-size: 3.5em;
+    }
+
+    main .hold p{
+    font-size: 1.2em;
+     }
+
+     main .c-header .star {
+      display: none;
+     }
+
+     main .c-body{
+        padding: 0 2em;
+    }
+
+     main .c-foot p{
+     width: 100%;
+     }
+
+     main .c-foot{
+    padding: 1em 2em;
+     }
+
+        main .c-foot .foot-img{
+    width: 100%;
+     }
+
+     main .c-foot p{
+    font-size: 1.7em;
+    width: 100%;
+    }
+
+     main .c-foot .foot-img img{
+    width: 60%;
+    }
+
+    footer{
+    font-size: .75em;
+    }
+    }
