@@ -20,6 +20,19 @@
     font-size: 16px;
 }
 
+.navig {
+    text-decoration: none;
+}
+
+.navig:visited {
+    color: black;
+}
+
+#homelink {
+    border-bottom: 2px solid #000;
+    padding-bottom: 3px;
+}
+
 .nameh {
     font-family: 'Great Vibes', cursive;
     font-size: 96px;
