@@ -96,6 +96,7 @@
     /*background-color: #F7CAC9;*/
     background-color: rgba(247, 202, 201, 0.1);
     padding: 72px 64px 188px 64px;
+    position: relative;
 }
 
 .beginning {
@@ -103,4 +104,69 @@
     font-family: 'Great Vibes', cursive;
     font-size: 64px;
     font-weight: 400;
+    height: 3871px;
+}
+
+#top1 {
+    position: absolute;
+    left: 16.12%;
+    right: 81.83%;
+    top: 4.03%;
+    bottom: 94.69%;
+}
+
+#right1 {
+    position: absolute;
+    left: 18.87%;
+    right: 78.82%;
+    top: 4.59%;
+    bottom: 94.11%;
+}
+
+#bottom1 {
+    position: absolute;
+    left: 17.63%;
+    right: 80.7%;
+    top: 5.67%;
+    bottom: 93.26%;
+}
+
+#left1 {
+    position: absolute;
+    left: 13.47%;
+    right: 84.55%;
+    top: 4.85%;
+    bottom: 93.78%;
+}
+
+#top2 {
+    position: absolute;
+    left: 81.46%;
+    right: 16.48%;
+    top: 4.03%;
+    bottom: 94.69%;
+}
+
+#right2 {
+    position: absolute;
+    left: 84.21%;
+    right: 13.47%;
+    top: 4.59%;
+    bottom: 94.11%;
+}
+
+#bottom2 {
+    position: absolute;
+    left: 82.98%;
+    right: 15.35%;
+    top: 5.67%;
+    bottom: 93.26%;
+}
+
+#left2 {
+    position: absolute;
+    left: 78.82%;
+    right: 19.2%;
+    top: 4.85%;
+    bottom: 93.78%;
 }
