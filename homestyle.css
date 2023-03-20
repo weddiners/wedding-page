@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.firstsec {
+    height: 640px;
+    margin-top: 70px;
+    position: relative;
+}
+
 .homenav {
     display: flex;
     gap: 74px;
@@ -12,5 +18,37 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    margin-top: 70px;
+}
+
+.nameh {
+    font-family: 'Great Vibes', cursive;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+#n1 {
+    position: absolute;
+    left: 23%;
+    top: 40%
+}
+
+#and {
+    position: absolute;
+    left: 48%;
+    top: 52%;
+}
+
+#n2 {
+    position: absolute;
+    left: 57%;
+    top: 62%;
+}
+
+.weddingdate {
+    position: absolute;
+    left: 40%;
+    top: 83%;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
 }
