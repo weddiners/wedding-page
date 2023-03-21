@@ -181,6 +181,7 @@
     top: 5.35%;
     bottom: 79.92%;
     z-index: 1;
+    width: 28%;
 }
 
 #kiss2 {
@@ -190,6 +191,7 @@
     top: 6.02%;
     bottom: 79.24%;
     z-index: 0;
+    width: 28%;
 }
 
 .promisediv {
@@ -260,4 +262,11 @@
     position: absolute;
     left: 50%;
     bottom: 26.2%;
+}
+
+#rose {
+    position: absolute;
+    left: 194px;
+    top: 936px;
+    width: 20.5%;
 }
