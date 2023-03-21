@@ -8,6 +8,9 @@
     height: 640px;
     padding: 70px 0 119px ;
     position: relative;
+    background-image: url("img/backh.png");
+    background-color: rgb(253, 244, 244, 0.5);
+    ;
 }
 
 .homenav {
@@ -251,4 +254,10 @@
     font-size: 16px;
     font-weight: 500;
     margin-right: 63px;
+}
+
+#line {
+    position: absolute;
+    left: 50%;
+    bottom: 26.2%;
 }
