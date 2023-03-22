@@ -12,6 +12,11 @@ body{
     max-width: 1440px;
 }
 
+.menu{
+    display: none;
+    
+}
+
 nav{
     display: flex;
     width: 100%;
@@ -190,6 +195,90 @@ footer{
 }
 
 
+/* gift registry */
+
+header{
+    /* background: url("./img/gift-hero.jpg"); */
+    position: relative;
+    height: 100vh;
+}
+
+header img{
+    /* opacity: 0.4; */
+    height: 100%;
+    object-fit: cover;
+}
+
+header nav{
+    background-color: rgba(253, 244, 244, 0.75);;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    
+}
+
+header .g-header{
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 5em;
+}
+
+header .g-header h1{
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 5.9em;
+    line-height: 144px;
+    text-transform: capitalize;
+}
+
+header .g-header p{
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 48px;
+}
+
+main.gift-scroll{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main .gifts{
+    display: flex;
+    overflow-x: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:1024px){
     nav{
         padding: 2em 9em;  
@@ -205,6 +294,7 @@ footer{
 
     main .hold p{
     font-size: 1.7em;
+    padding: 0 1em;
      }
 
      main .c-body .image img{
@@ -233,7 +323,7 @@ footer{
     }
 
      main .c-body{
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
      }
 
      main .c-body .image{
@@ -258,9 +348,28 @@ footer{
     @media(max-width:425px){
         nav{
             display: none;
+            flex-direction: column;
+            padding: 3em 2em;
+            gap: 3em;
+            justify-content: flex-start;
+            align-items: center;
+            position: absolute;
+            background-color: #FFFFFF;
+            width: fit-content;
+            border-left: 2px solid #4D5053;
+            border-bottom: 2px solid #4D5053;
+            border-bottom-left-radius: 6px;
+            height: 100vh;
+            top: 15%;
+            right: 0%;
+            
+        }
+        .menu{
+            display: block;
+            margin: 2em;
         }
      main .c-header{
-        margin: 3em 2em 2em;
+        margin: 2em 2em 2em;
      }
 
        main .c-header .head h1{
