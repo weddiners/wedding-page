@@ -68,4 +68,26 @@
         <p> © Copyright | All Rights Reserved | Weddings</p>
     </footer>
 </body>
+
+<script>
+    let menu = document.querySelector(".menu");
+    let nav = document.querySelector("nav");
+
+    menu.onclick = ()=>{
+        nav.classList.toggle("active-nav")
+    }
+
+    nav.onclick = ()=>{
+        nav.classList.remove("active-nav")
+    }
+
+    window.onscroll = () =>{
+        nav.classList.remove("active-nav");
+    }
+
+</script>
 </html>
+
+
+
+
