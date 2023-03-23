@@ -12,6 +12,11 @@ body{
     max-width: 1440px;
 }
 
+.menu{
+    display: none;
+    
+}
+
 nav{
     display: flex;
     width: 100%;
@@ -190,6 +195,227 @@ footer{
 }
 
 
+/* gift registry */
+
+header{
+    /* background: url("./img/gift-hero.jpg"); */
+    position: relative;
+    height: 100vh;
+}
+
+header img{
+    /* opacity: 0.4; */
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+header nav{
+    background-color: rgba(253, 244, 244, 0.75);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    
+}
+
+header .g-header{
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 5em;
+}
+
+header .g-header h1{
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 5.9em;
+    line-height: 144px;
+    text-transform: capitalize;
+}
+
+header .g-header p{
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 48px;
+}
+
+main.gift-scroll{
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+}
+
+main .gifts{
+    display: flex;
+    overflow-x: scroll;
+    gap: 1.1em;
+}
+
+main .gifts .gift{
+    border: 1px solid #E7E7E7;
+    filter: drop-shadow(0px 10px 30px rgba(255, 255, 255, 0.25));
+    border-radius: 62px;
+    padding: 1.3em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2em;
+    margin-bottom: 2.5em;
+    
+}
+
+main .gifts .gift img{
+    width: 230px;
+}
+
+
+
+main .gifts .gift .item{
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 29px;
+    /* margin-top: 1.2em; */
+    /* margin-bottom: 1em; */
+}
+
+main .gifts .gift .cash{
+    display: flex;
+    justify-content: center;
+    gap: .7em;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+main .gifts .gift .cash p{
+    padding-right: .7em;
+    border-right: 1px solid #000000;;
+}
+
+main .gifts .gift .cash img{
+    width: 22px;
+}
+
+main .gifts .gift p.amount, main .gifts .gift p.amount-2{
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 22px;
+    color: #F7CAC9;
+}
+main .gifts .gift p.amount span, main .gifts .gift p.amount-2 span{
+    color: #000000;
+}
+
+main .gifts .gift a{
+    background-color: #F7CAC9;
+    border-radius: 8px;
+    border: none;
+    padding: .625em 1.25em;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+main .gifts .gift .slide{
+    display: flex;
+    align-items: center;
+    gap: .6em;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 22px;
+}
+
+
+::-webkit-scrollbar{
+    appearance: none;
+}
+
+.slider{
+    position: relative;
+}
+
+input[type="range"]{
+    appearance: none;
+   background: transparent;
+    width: 180px;
+    color: rebeccapurple;
+    position: relative;
+}
+
+input[type="range"]::-webkit-slider-runnable-track{
+    background-color: #D9D9D9;
+    border-radius: 8px;
+}
+input[type="range"]::-moz-range-track{
+    background-color: #D9D9D9;
+    border-radius: 8px;
+}
+input[type="range"]::-ms-track{
+    background-color: #D9D9D9;
+    border-radius: 8px;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 1.2em;
+   
+}
+input[type="range"]::-moz-range-thumb{
+    appearance: none;
+    height: 1.2em;
+}
+input[type="range"]::-ms-thumb{
+    appearance: none;
+    height: 1.2em;
+}
+
+.progress{
+    position: absolute;
+    background-color: #F7CAC9;
+    border-radius: 8px;
+    height: 1em;
+    width: 50%;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:1024px){
     nav{
         padding: 2em 9em;  
@@ -205,6 +431,7 @@ footer{
 
     main .hold p{
     font-size: 1.7em;
+    padding: 0 1em;
      }
 
      main .c-body .image img{
@@ -233,7 +460,7 @@ footer{
     }
 
      main .c-body{
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
      }
 
      main .c-body .image{
@@ -253,14 +480,66 @@ footer{
      main .c-body .c-form{
         font-size: 1.3em;
      }
+
+     header .g-header{
+        top: 55%;
+    }
+    
+    header .g-header h1{
+        font-size: 4.0em;
+        line-height: 124px;
+    }
+    
+    header .g-header p{
+        font-size: 1.3em;
+        line-height: 42px;
+    }
     }
 
     @media(max-width:425px){
         nav{
             display: none;
+            flex-direction: column;
+            padding: 5em 2em 1em;
+            gap: 3em;
+            justify-content: flex-start;
+            align-items: center;
+            position: absolute;
+            background-color: #FFFFFF;
+            width: fit-content;
+            border-left: 2px solid #4D5053;
+            border-bottom: 2px solid #4D5053;
+            border-bottom-left-radius: 6px;
+            height: 100vh;
+            top: 0%;
+            right: 0%;
+                        
+        }
+        header nav{
+            z-index: 100;
+            background-color: #FFFFFF;
+        }
+        .menu{
+            display: block;
+            margin: 2em;
+        }
+
+        header .menu{
+            display: block;
+            margin: 2em;
+            width: 30px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            
+        }
+
+        .active-nav{
+            display: flex;
         }
      main .c-header{
-        margin: 3em 2em 2em;
+        margin: 2em 2em 2em;
      }
 
        main .c-header .head h1{
@@ -302,5 +581,32 @@ footer{
 
     footer{
     font-size: .75em;
+    }
+
+    header .g-header{
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        padding: 5em 2em 0 2em;
+        background-color: rgba(253, 244, 244, 0.75);
+    }
+
+    header .g-header h1{
+        font-size: 2.5em;
+        line-height: 74px;
+        margin-top: 1.2em;
+    }
+    
+    header .g-header p{
+        font-size: 1.2em;
+       line-height: 32px;
+    }
+
+    main.gift-scroll {
+        padding: 3em 1.2em;
     }
     }

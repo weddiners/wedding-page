@@ -14,13 +14,16 @@
 </head>
 <body>
     <nav>
-        <a href="homepage.html">home</a> 
+        <a href="#">home</a> 
         <a href="#">about us</a>
         <a href="#">gallery</a>
         <a href="gift.html">gift registry</a>
         <a href="#">wedding timeline</a>
         <a href="contact.html" class="active">contact us</a>
     </nav>
+    <div class="menu">
+        <img src="./img/menu.png" alt="">
+    </div>
     <main>
         <div class="hold">
         <div class="c-header">
@@ -65,4 +68,26 @@
         <p> © Copyright | All Rights Reserved | Weddings</p>
     </footer>
 </body>
+
+<script>
+    let menu = document.querySelector(".menu");
+    let nav = document.querySelector("nav");
+
+    menu.onclick = ()=>{
+        nav.classList.toggle("active-nav")
+    }
+
+    nav.onclick = ()=>{
+        nav.classList.remove("active-nav")
+    }
+
+    window.onscroll = () =>{
+        nav.classList.remove("active-nav");
+    }
+
+</script>
 </html>
+
+
+
+
