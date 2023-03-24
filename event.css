@@ -120,7 +120,7 @@ img {
 }
 
 .left {
-    padding: 15px;
+    padding: 15px 20px;
     border-radius: 100%;
     color: #111827;
     background-color: #F3F4F6;
@@ -131,7 +131,7 @@ img {
 }
 
 .right {
-    padding: 15px;
+    padding: 15px 20px;
     border-radius: 100%;
     color: white;
     background-color: #111827;
