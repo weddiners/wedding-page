@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homenav {
+    display: flex;
+    gap: 74px;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 70px;
+}
+
+.navig {
+    text-decoration: none;
+}
+
+.navig:visited {
+    color: black;
+}
+
+#eventlink::after {
+    content: " ";
+    display: block;
+    margin: 0;
+    width: 33%;
+    padding-top: 2px;
+    border-bottom: 2px solid #000000;
+}
+
+.loc {
+    margin-top: 167px;
+}
+
+.WE {
+    font-family: 'Great Vibes', cursive;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 144px;
+    text-align: center;
+}
+
+.seeloc {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+}
+
+.where {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 60px;
+    gap: 24px;
+    padding-left: 64px;
+    padding-bottom: 243px;
+    padding-right: 64px;
+}
+
+.venue {
+    position: relative;
+    background: black;
+    border-radius: 8px;
+}
+
+img {
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+.was {
+    position: absolute;
+    top: 72px;
+    left: 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: white;
+    z-index: 1;
+}
+
+button {
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 10px 20px;
+    top: 470px;
+    left: 288px;
+    z-index: 1;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.eventloc {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    top: 109px;
+    left: 24px;
+    color: white;
+    z-index: 1;
+}
+
+.foot {
+    background-color: #F2E6E6;
+    padding: 16.9% 0 3.2% 0;
+}
+
+.copy {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #4D5053;
+    text-align: center;
+}
