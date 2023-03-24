@@ -6,11 +6,17 @@
 
 .firstsec {
     height: 640px;
-    padding: 70px 0 119px ;
     position: relative;
     background-image: url("img/backh.png");
     background-color: rgb(253, 244, 244, 0.5);
     background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(253, 244, 244, 0.5);
 }
 
 .homenav {
@@ -21,10 +27,12 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    padding-top: 70px;
 }
 
 .navig {
     text-decoration: none;
+    z-index: 1;
 }
 
 .navig:visited {
@@ -58,6 +66,7 @@
     position: absolute;
     left: 57%;
     top: 55%;
+    padding-bottom: 119px;
 }
 
 .weddingdate {
