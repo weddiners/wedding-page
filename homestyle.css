@@ -10,7 +10,7 @@
     position: relative;
     background-image: url("img/backh.png");
     background-color: rgb(253, 244, 244, 0.5);
-    ;
+    background-size: cover;
 }
 
 .homenav {
@@ -116,6 +116,7 @@
     right: 81.83%;
     top: 4.03%;
     bottom: 94.69%;
+    width: 2.06%;
 }
 
 #right1 {
@@ -124,6 +125,7 @@
     right: 78.82%;
     top: 4.59%;
     bottom: 94.11%;
+    width: 2.33%;
 }
 
 #bottom1 {
@@ -132,6 +134,7 @@
     right: 80.7%;
     top: 5.67%;
     bottom: 93.26%;
+    width: 1.72%;
 }
 
 #left1 {
@@ -140,6 +143,7 @@
     right: 84.55%;
     top: 4.85%;
     bottom: 93.78%;
+    width: 2%;
 }
 
 #top2 {
@@ -148,6 +152,7 @@
     right: 16.48%;
     top: 4.03%;
     bottom: 94.69%;
+    width: 2.06%;
 }
 
 #right2 {
@@ -156,6 +161,7 @@
     right: 13.47%;
     top: 4.59%;
     bottom: 94.11%;
+    width: 2.33%;
 }
 
 #bottom2 {
@@ -164,6 +170,7 @@
     right: 15.35%;
     top: 5.67%;
     bottom: 93.26%;
+    width: 1.72%;
 }
 
 #left2 {
@@ -172,6 +179,7 @@
     right: 19.2%;
     top: 4.85%;
     bottom: 93.78%;
+    width: 2%;
 }
 
 #kiss1 {
