@@ -18,10 +18,11 @@
         <nav>
             <a href="index.html">home</a> 
             <a href="aboutus.html">about us</a>
-            <a href="#">gallery</a>
+            <a href="indexgall.html">gallery</a>
             <a href="gift.html"  class="active">gift registry</a>
-            <a href="#">wedding timeline</a>
+            <a href="wedevent.html">wedding timeline</a>
             <a href="contact.html">contact us</a>
+            <button class="close">Close</button>
         </nav>
 
         <div class="menu">
@@ -379,13 +380,18 @@
 <script>
     let menu = document.querySelector(".menu");
     let nav = document.querySelector("nav");
+    let closeBtn = document.querySelector(".close");
 
     menu.onclick = ()=>{
         nav.classList.toggle("active-nav")
     }
 
     nav.onclick = ()=>{
-        nav.classList.remove("active-nav")
+       nav.classList.remove("active-nav")
+    } 
+
+    closeBtn.onclick = () =>{
+        nav.classList.remove("active-nav");
     }
 
     window.onscroll = () =>{
