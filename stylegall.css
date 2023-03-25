@@ -51,7 +51,7 @@ h1{
     text-align: center;
 }
 
-.first_container p{
+p{
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -103,17 +103,18 @@ img{
 
 footer{
     background: #F2E6E6;
-    padding: 60px 120px;
+    padding: 10px 20px;
 }
 
 footer p{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 36px;
     color: #4D5053;
     text-align: center;
+    padding: 10px 20px;
 }
 
 @media screen and (max-width: 375px ) {
@@ -138,7 +139,7 @@ footer p{
         font-size: 32px;
     }
 
-    .first_container p{
+    p{
         font-size: 16px;
     }
     h2{
@@ -157,8 +158,11 @@ footer p{
         width: 10%;
     }
 
-    footer{
+    .footer{
         padding: 5px 24px;
+    }
+    .footer p{
+        font-size: 10px;
     }
 }    
 
@@ -172,7 +176,7 @@ footer p{
     }
 
     .logo5{
-        padding: 0 15px;
+        padding: 40px 15px;
         display: flex;
     }
 
@@ -188,8 +192,10 @@ footer p{
         font-size: 32px;
     }
 
-    .first_container p{
-        font-size: 16px;
+    p{
+        font-size: 24px;
+        padding: 0 60px;
+        text-align: center;
     }
 
     h2{
@@ -208,9 +214,10 @@ footer p{
         width: 10%;
     }
 
-    footer{
+    .footer{
         padding: 5px 24px;
     }
+    
 }    
 
 @media screen and (max-width: 768px ) {
@@ -222,8 +229,9 @@ footer p{
         font-size: 64px;
     }
 
-    .first_container p{
-        font-size: 24px;
+    p{
+        font-size: 16px;
+        padding:0 30px ;
     }
 
     h2{
@@ -232,5 +240,9 @@ footer p{
 
     .gallery{
         padding: 5px 25px;
+    }
+
+    .footer p{
+        font-size: 10px;
     }
 }
