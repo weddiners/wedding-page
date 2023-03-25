@@ -163,6 +163,10 @@ img {
     appearance: none;
 }
 
+.menu {
+    display: none;
+}
+
 @media (max-width: 800px) {
 
     .homenav {

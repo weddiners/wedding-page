@@ -522,6 +522,8 @@ top: 23.9%;
 
     .homenav {
         padding: 50px;
+        gap: 45px;
+        font-size: 13px;
     }
     
     .thirdsec {
@@ -530,19 +532,23 @@ top: 23.9%;
 
     #n1 {
         left: 7%;
+        font-size: 70px;
     }
 
     #and {
-        left: 47%
+        left: 47%;
+        font-size: 70px;
     }
 
     #n2 {
-        left: 60%
+        left: 60%;
+        font-size: 70px;
     }
 
-    .weddingdate {
+    #weddingdate {
         left: 33%;
         top: 75%;
+        font-size: 30px;
     }
 
     #kiss1 {
@@ -585,7 +591,7 @@ top: 23.9%;
     #wed {
         width: 25%;
         left: 40.3%;
-        top: 86%;
+        top: 90%;
     }
 }
 
@@ -601,7 +607,7 @@ top: 23.9%;
 
     .menu {
         position: absolute;
-        bottom: 0%;
+        top: 10%;
         left: 5%;
     }
 
@@ -705,7 +711,7 @@ top: 23.9%;
     .promisediv2 {
         width: 57%;
         left: 24%;
-        top: -2%;
+        top: -1%;
     }
 
     .quote {
@@ -799,11 +805,182 @@ top: 23.9%;
         top: 79%;
     }
 
+    .copy {
+        font-size: 15px;
+    }
+
+    #top2, #left2, #bottom2, #right2 {
+        display: none;
+    }
+
+    .hwm {
+        font-size: 24px;
+    }
+
+    .meetingdate {
+        font-size: 16px;
+    }
+
+    .thirdsec {
+        padding-top: 30px;
+    }
 }
 
 @media (max-width: 420px) {
  
     #wed {
         top: 81%
+    }
+
+    .meetingstory {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    #rose {
+        top: 11.5%
+    }
+
+    .firstdate {
+        font-size: 24px;
+    }
+
+    .datediv {
+        top: 20.4%;
+    }
+
+    .datedate {
+        font-size: 16px;
+    } 
+
+    .datestory {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    #tent {
+        top: 23%;
+    }
+
+    .vacadiv {
+        top: 33.43%;
+    }
+
+    .firstvaca {
+        font-size: 24px;
+    }
+
+    .vacadate {
+        font-size: 16px;
+    }
+
+    .vacastory {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    #bedcof {
+        top: 35.5%;
+    }
+
+    .propdiv {
+        top: 46.95%;
+    }
+
+    .prop {
+        font-size: 24px;
+    }
+
+    .propdate {
+        font-size: 16px;
+    }
+
+    .propstory {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    #rosering {
+        top: 50.5%;
+    }
+
+    .weddiv {
+        top: 59.85%;
+    }
+
+    .ourwed {
+        font-size: 24px;
+    }
+
+    .weddate {
+        font-size: 16px;
+    }
+
+    .wedstory {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    #wed {
+        top: 69%;
+    }
+
+    .beginning {
+        height: 2957px;
+    }
+}
+
+@media (max-width: 380px) {
+    
+    .promisediv {
+        width: 61%;
+    }
+
+    .teediv {
+        left: 68%;
+        bottom: 94.8%;
+    }
+
+     .promisediv2 {
+
+        width: 65%;
+
+     }
+
+    .vicdiv {
+        left: 68%;
+        bottom: 92.5%;
+    }
+
+    #tent {
+        top: 25%;
+    }
+
+    .datediv {
+        top: 21.4%;
+    }
+
+    #bedcof {
+        top: 38.5%;
+    }
+
+    .vacadiv {
+        top: 35.43%;
+    }
+
+    #rosering {
+        top: 54.5%;
+    }
+
+    .propdiv {
+        top: 50.95%;
+    }
+
+    .weddiv {
+        top: 67.85%;
+    }
+
+    #wed {
+        top: 80%;
     }
 }
