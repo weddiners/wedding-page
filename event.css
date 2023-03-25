@@ -154,3 +154,44 @@ img {
     color: #4D5053;
     text-align: center;
 }
+
+::-webkit-scrollbar{
+    appearance: none;
+}
+
+@media (max-width: 420px) {
+
+    .homenav {
+        display: none;
+    }
+
+    .WE {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .seeloc {
+        font-size: 12px;
+    }
+
+    .where {
+        overflow-y: scroll;
+    }
+
+    .venue {
+        width: 140%;
+        height: 350px;
+    }
+
+    .was {
+        font-size: 14px;
+        top: 31px;
+        left: 24px;
+    }
+
+    .eventloc {
+        font-size: 14px;
+        top: 60px;
+        left: 24px;
+    }
+}
