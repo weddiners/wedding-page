@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    max-width: 1440px;
+}
+
 .homenav {
     display: flex;
     gap: 74px;
@@ -153,4 +157,145 @@ img {
     line-height: 36px;
     color: #4D5053;
     text-align: center;
+}
+
+::-webkit-scrollbar{
+    appearance: none;
+}
+
+@media (max-width: 800px) {
+
+    .homenav {
+        padding: 50px;
+        gap: 55px;
+        font-size: 12px;
+    }
+
+    .where {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+        overflow-y: scroll;
+        margin-top: 37px;
+        padding-left: 34px;
+        padding-right: 14px;
+        margin-bottom: 48px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .WE {
+        font-size: 80px;
+    }
+
+    .seeloc {
+        font-size: 25px;
+    }
+
+    .loc {
+        margin-top: 111px;
+    }
+
+    .menu {
+        width: 5%;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+    #menu {
+        opacity: 1;
+    }
+
+    .homenav {
+        display: none;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .homenav {
+        display: none;
+    }
+
+    body {
+        padding-top: 77px;
+        position: relative;
+    }
+
+    .menu {
+        width: 5%;
+        position: absolute;
+        left: 5%;
+        top: 1.5%;
+    }
+
+    #menu {
+        opacity: 1;
+    }
+
+    .loc {
+        margin-top: 0;
+    }
+
+    .WE {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .seeloc {
+        font-size: 12px;
+    }
+
+    /*.venue {
+        width: 140%;
+        height: 350px;
+    }*/
+
+    .was {
+        font-size: 14px;
+        top: 31px;
+        left: 24px;
+    }
+
+    .eventloc {
+        font-size: 14px;
+        top: 60px;
+        left: 24px;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .move {
+        display: none;
+    }
+
+    .where {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+        overflow-y: scroll;
+        margin-top: 37px;
+        padding-left: 34px;
+        padding-right: 14px;
+        margin-bottom: 48px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .copy {
+        font-size: 15px;
+    }
 }
