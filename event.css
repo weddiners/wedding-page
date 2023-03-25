@@ -21,6 +21,7 @@ body {
 
 .navig {
     text-decoration: none;
+    color: black;
 }
 
 .navig:visited {
