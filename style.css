@@ -176,8 +176,11 @@ footer p{
         align-items: center;
     }
 
-    footer p{
-        font-size: 16px;
+    .footer{
+        padding: 5px 24px;
+    }
+    .footer p{
+        font-size: 10px;
     }
 }
 
@@ -191,8 +194,12 @@ footer p{
     }
 
     .logo5{
-        display: block;
-        padding: 10px 15px;
+        display: flex;
+        padding: 20px 15px;
+    }
+
+    .logo5 img{
+        width: 5%;
     }
 
     h1{
@@ -239,9 +246,6 @@ footer p{
         align-items: center;
     }
 
-    footer p{
-        font-size: 16px;
-    }
 }
 
 @media screen and (max-width: 786px ) {
@@ -298,7 +302,11 @@ footer p{
     }
 
     footer p{
-        font-size: 16px;
+        font-size: 10px;
+        
+    }
+    footer{
+        padding: 5px 20px;
     }
 }
 
