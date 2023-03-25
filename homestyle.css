@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    max-width: 1440px;
+}
+
 .firstsec {
     height: 640px;
     position: relative;

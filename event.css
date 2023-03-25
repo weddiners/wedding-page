@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    max-width: 1440px;
+}
+
 .homenav {
     display: flex;
     gap: 74px;
@@ -178,14 +182,10 @@ img {
         font-size: 12px;
     }
 
-    .venue {
+    /*.venue {
         width: 140%;
         height: 350px;
-    }
-
-    .where {
-        flex-flow: column;
-    }
+    }*/
 
     .was {
         font-size: 14px;
@@ -205,5 +205,21 @@ img {
 
     .move {
         display: none;
+    }
+
+    .where {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+        overflow-y: scroll;
+        margin-top: 60px;
+        padding-left: 34px;
+        padding-right: 14px;
+        margin-bottom: 48px;
+    }
+
+    img {
+        width: 100%;
     }
 }
