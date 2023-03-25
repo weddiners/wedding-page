@@ -23,6 +23,10 @@ nav{
 
 }
 
+#about{
+    text-decoration: underline;
+}
+
 a{
     font-family: 'Inter';
     font-style: normal;
@@ -53,8 +57,6 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* padding: 20px 20px; */
-    
 }
 
 .second p{
@@ -68,7 +70,7 @@ h1{
     }
 
 .second{
-    padding: 16px 164px;
+    padding: 16px 40px;
 } 
 
 .overall{
@@ -76,15 +78,13 @@ h1{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 0 2rem;
+    padding: 1rem 2rem;
 }
 
 .hero2{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* padding: 20px 20px; */
-    
 }
 
 .four p{
@@ -98,7 +98,7 @@ h1{
     }
 
 .four{
-    padding: 16px 164px;
+    padding: 16px 40px;
 }    
 
 footer{
@@ -118,33 +118,187 @@ footer p{
     text-align: center;
 }
 
-@media screen and (max-width: 376px ) {
-    nav a {
+@media screen and (max-width: 375px ) {
+    nav a{
         display: none;
     }
     
-    /* header {
-        padding: 16px 30px;
-    }
-
     header{
-        width: 100%;
-    } */
-
-    .logo5{
-        width: 100%;
-    }
-    
-   .logo5{
-        justify-content: flex-end;
+        padding: 0 24px;
     }
 
     .logo5{
-        display: flex;
+        display: block;
+        padding: 10px 15px;
     }
 
-    /* header{
-        width: 100%;
-    } */
+    h1{
+        font-size: 32px;
+    }
 
+    p{
+        font-size: 5px;
+        text-align: start;
+    }
+
+    .hero{
+        flex-direction: column;    
+    }
+
+    .hero2{
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+
+    .overall{
+        padding: 0 10px;
+    }
+
+    .first img{
+        width: 40%;
+    }
+
+    .second{
+        padding: 6px 10px ;
+    }
+
+    .five img{
+        width: 40%;
+    }
+
+    .four{
+        padding: 6px 10px ;
+    }
+
+    .third img{
+        width: 50%;
+        padding: 16px 10px;
+        align-items: center;
+    }
+
+    footer p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 425px ) {
+    nav a{
+        display: none;
+    }
     
+    header{
+        padding: 0 24px;
+    }
+
+    .logo5{
+        display: block;
+        padding: 10px 15px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 5px;
+        text-align: start;
+    }
+
+    .hero{
+        flex-direction: column;    
+    }
+
+    .hero2{
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+
+    .overall{
+        padding: 0 10px;
+    }
+
+    .first img{
+        width: 40%;
+    }
+
+    .second{
+        padding: 6px 10px ;
+    }
+
+    .five img{
+        width: 40%;
+    }
+
+    .four{
+        padding: 6px 10px ;
+    }
+
+    .third img{
+        width: 50%;
+        padding: 16px 10px;
+        align-items: center;
+    }
+
+    footer p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 786px ) {
+    nav a{
+        /* display: none; */
+    }
+    
+    a{
+        font-size: 11px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 5px;
+        text-align: start;
+    }
+
+    .hero{
+        flex-direction: column;    
+    }
+
+    .hero2{
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+
+    .overall{
+        padding: 0 10px;
+    }
+
+    .first img{
+        width: 40%;
+    }
+
+    .second{
+        padding: 6px 10px ;
+    }
+
+    .five img{
+        width: 40%;
+    }
+
+    .four{
+        padding: 6px 10px ;
+    }
+
+    .third img{
+        width: 50%;
+        padding: 16px 10px;
+        align-items: center;
+    }
+
+    footer p{
+        font-size: 16px;
+    }
+}
+
