@@ -20,6 +20,7 @@
             <a class="navig" href="gift.html">GIFT REGISTRY</a>
             <a class="navig" href="wedevent.html">WEDDING TIMELINE</a>
             <a class="navig" href="contact.html">CONTACT US</a>
+            <button class="close">Close</button>
         </nav>
             <p class="nameh" id="n1">Tuammy</p>
             <p class="nameh" id="and">&</p>
@@ -142,4 +143,27 @@
         </p>
     </footer>
 </body>
+
+<script>
+    let menu = document.querySelector(".menu");
+    let nav = document.querySelector(".homenav");
+    let closeBtn = document.querySelector(".close");
+
+    menu.onclick = ()=>{
+        nav.classList.toggle("active-nav")
+    }
+
+    nav.onclick = ()=>{
+       nav.classList.remove("active-nav")
+    } 
+
+    closeBtn.onclick = () =>{
+        nav.classList.remove("active-nav");
+    }
+
+    window.onscroll = () =>{
+        nav.classList.remove("active-nav");
+    }
+
+</script>
 </html>

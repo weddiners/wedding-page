@@ -47,6 +47,18 @@ body {
     border-bottom: 2px solid #000;
     padding-bottom: 2px;
 }
+.close{
+    font-family: 'Inter', sans-serif;
+    display: none;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 24px;    
+    color: #000000;
+    background: #F7CAC9;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+}
 
 .nameh {
     font-family: 'Great Vibes', cursive;
@@ -611,9 +623,36 @@ top: 23.9%;
         left: 5%;
     }
 
+    .homenav{
+        display: none;
+        flex-direction: column;
+        /* padding: 5em 2em 1em; */
+        gap: 2em;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background-color: #FFFFFF;
+        width: fit-content;
+        border-left: 2px solid #4D5053;
+        border-bottom: 2px solid #4D5053;
+        border-bottom-left-radius: 6px;
+        height: 100vh;
+        top: 0%;
+        right: 0%;
+        z-index: 2;
+    }
+
     .homenav {
         display: none;
     }
+
+    .close{
+        display: block;
+    }
+
+    .active-nav {
+        display: flex
+        }
 
     #n1 {
         font-size: 24px;
