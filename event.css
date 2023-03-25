@@ -165,6 +165,10 @@ img {
         display: none;
     }
 
+    .loc {
+        margin-top: 77px;
+    }
+
     .WE {
         font-size: 32px;
         line-height: 36px;
@@ -174,13 +178,13 @@ img {
         font-size: 12px;
     }
 
-    .where {
-        overflow-y: scroll;
-    }
-
     .venue {
         width: 140%;
         height: 350px;
+    }
+
+    .where {
+        flex-flow: column;
     }
 
     .was {
@@ -193,5 +197,13 @@ img {
         font-size: 14px;
         top: 60px;
         left: 24px;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .move {
+        display: none;
     }
 }
