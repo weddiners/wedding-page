@@ -23,6 +23,14 @@ nav{
 
 }
 
+.logo5{
+    display: none;
+}
+
+#gallerylink{
+    text-decoration: underline;
+}
+
 a{
     font-family: 'Inter';
     font-style: normal;
@@ -106,4 +114,123 @@ footer p{
     line-height: 36px;
     color: #4D5053;
     text-align: center;
+}
+
+@media screen and (max-width: 375px ) {
+    nav a{
+        display: none;
+    }
+    
+    header{
+        padding: 0 30px;
+    }
+
+    .logo5{
+        padding: 0 15px;
+        /* display: flex; */
+    }
+
+    .logo5 img{
+        width: 5%;
+    }
+
+    .moment h1{
+        font-size: 32px;
+    }
+
+    .first_container p{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 24px;
+    }
+
+    .gallery{
+        padding: 5px 10px;
+    }
+    
+    .img7 img{
+        width: 40%;
+    }
+
+    .img7{
+        width: 10%;
+    }
+
+    footer{
+        padding: 5px 24px;
+    }
+}    
+
+@media screen and (max-width: 425px ) {
+    nav a{
+        display: none;
+    }
+    
+    header{
+        padding: 0 24px;
+    }
+
+    .logo5{
+        padding: 0 15px;
+        display: flex;
+    }
+
+    .logo5 img{
+        width: 5%;
+    }
+
+    .moment h1{
+        font-size: 32px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    .first_container p{
+        font-size: 16px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    .gallery{
+        padding: 5px 10px;
+    }
+    
+    .img7 img{
+        width: 40%;
+    }
+
+    .img7{
+        width: 10%;
+    }
+
+    footer{
+        padding: 5px 24px;
+    }
+}    
+
+@media screen and (max-width: 768px ) {
+    a{
+        font-size: 11px;
+    }
+
+    h1{
+        font-size: 64px;
+    }
+
+    .first_container p{
+        font-size: 24px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+    .gallery{
+        padding: 5px 25px;
+    }
 }
